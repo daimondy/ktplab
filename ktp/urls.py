@@ -15,9 +15,19 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+<<<<<<< Updated upstream
 from lab2.firstwebpages.flatpages import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('',views.home,name='home'),
+=======
+from lab4.blog.articles import views
+from django.conf.urls import url
+
+urlpatterns = [
+    path('admin/', admin.site.urls),
+    path('',views.archive,name='archive'),
+    url(r'^article/(?P<article_id>\d+)$', views.get_article, name='get_article'),
+>>>>>>> Stashed changes
 ]
