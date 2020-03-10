@@ -38,13 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-<<<<<<< Updated upstream
     'lab2.firstwebpages.flatpages',
     'lab4.blog.articles',
-
-=======
-    'lab4.blog.articles',
->>>>>>> Stashed changes
 ]
 
 SITE_ID = 1

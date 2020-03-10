@@ -22,8 +22,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('',views.archive,name='archive'),
     url(r'^article/(?P<article_id>\d+)$', views.get_article, name='get_article'),
-<<<<<<< Updated upstream
-
-=======
->>>>>>> Stashed changes
+    path('article/new', views.create_post, name='create_post'),
 ]
