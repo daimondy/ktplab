@@ -39,7 +39,11 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     'lab2.firstwebpages.flatpages',
+=======
+    'lab4.blog.articles',
+>>>>>>> Stashed changes
 =======
     'lab4.blog.articles',
 >>>>>>> Stashed changes
