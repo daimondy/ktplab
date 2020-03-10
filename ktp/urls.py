@@ -16,8 +16,9 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from lab2.firstwebpages.flatpages import views
+from lab3.blog.articles import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('',views.home,name='home'),
+    path('',views.archive,name='archive'),
 ]

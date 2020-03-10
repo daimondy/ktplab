@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'lab2.firstwebpages.flatpages',
+    'lab3.blog.articles',
 ]
 
 SITE_ID = 1
